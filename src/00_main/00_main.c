@@ -22,7 +22,7 @@ int	main(int ac, char **av, char **envp)
 	if (!msh)
 		close_minishell(msh, EXIT_FAILURE);
 	msh->active = true;
-	msh->debug_mode = true;
+	msh->debug_mode = false;
 	ft_init_msh(&msh, envp);
 	return (0);
 }
