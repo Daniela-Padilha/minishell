@@ -87,14 +87,21 @@ Quoted text is preserved as expected
 
 ## 📌 Examples of handled input
 
-`ls -a | grep .c > files.txt
-echo "$USER home is $HOME"
-cat << EOF | wc -l
-Hello
-42
-EOF
-export VAR=test && echo $VAR
-cd invalid_dir`
+`ls -a | grep .c > files.txt`
+
+`echo "$USER home is $HOME"`
+
+`cat << EOF | wc -l`
+
+`Hello`
+
+`42`
+
+`EOF`
+
+`export VAR=test && echo $VAR`
+
+`cd invalid_dir`
 
 ## 🧪 Tests
 
